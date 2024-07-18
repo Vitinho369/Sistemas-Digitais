@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/vitin/Documents/TADS/SistemasDigitais/Lista1/Questao1b/Questao1b.bdf
+source_file = 1, C:/Users/vitin/Documents/TADS/SistemasDigitais/Lista1/Questao1b/Waveform.vwf
+source_file = 1, C:/Users/vitin/Documents/TADS/SistemasDigitais/Lista1/Questao1b/db/Questao1b.cbx.xml
+design_name = Questao1b
+instance = comp, \A~I , A, Questao1b, 1
+instance = comp, \B~I , B, Questao1b, 1
+instance = comp, \X~I , X, Questao1b, 1

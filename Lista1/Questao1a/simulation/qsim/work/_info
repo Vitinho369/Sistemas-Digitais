@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\simulation\qsim
+vQuestao1
+Z1 InVJ]ST7WT7jUWKE9<A60h1
+Z2 Vn8Y=QUhADNHP9eOEWYEe52
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\simulation\qsim
+Z4 w1721093049
+Z5 8Questao1.vo
+Z6 FQuestao1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@questao1
+!i10b 1
+Z10 !s100 X3Bo2IShKa_JDdHMJHOhz3
+!s85 0
+Z11 !s108 1721093051.924000
+Z12 !s107 Questao1.vo|
+Z13 !s90 -work|work|Questao1.vo|
+!s101 -O0
+vQuestao1_vlg_check_tst
+!i10b 1
+!s100 L?zhdSzc28;lkSK^bTEBB2
+I?]W:IM>bRK1IQkfX]TRGP3
+Va:9<X_gmYlN`Y5^N5G_C@1
+R3
+Z14 w1721093048
+Z15 8Questao1.vt
+Z16 FQuestao1.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1721093052.047000
+Z18 !s107 Questao1.vt|
+Z19 !s90 -work|work|Questao1.vt|
+!s101 -O0
+R8
+n@questao1_vlg_check_tst
+vQuestao1_vlg_sample_tst
+!i10b 1
+!s100 lQ6MZN2hZ<J7Q1dJKP_K[0
+I_L=@<hPVEPRKF1hXBVAGi3
+V]91LRi^_=KgLk^7:fgZia2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@questao1_vlg_sample_tst
+vQuestao1_vlg_vec_tst
+!i10b 1
+!s100 GJ4lQZ^Nj5CzHAB5Gj41D0
+I<@F9X;YlhmAog9YFUmiVi3
+V?HRV;[z@QhFL8WZLZ`KGa3
+R3
+R14
+R15
+R16
+L0 154
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@questao1_vlg_vec_tst

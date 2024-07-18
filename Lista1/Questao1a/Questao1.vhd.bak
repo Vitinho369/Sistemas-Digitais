@@ -1,0 +1,9 @@
+entity portas is
+	PORT(a, b : in BIT;
+		  x 	 : out BIT;);
+end portas;
+
+architecture questao1 of portas is
+begin
+	x <= a XOR b;
+end questao1;

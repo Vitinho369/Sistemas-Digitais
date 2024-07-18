@@ -1,0 +1,5 @@
+entity Questao5 is
+	port(a,b,c : in BIT;
+			s 	  : out BIT);
+end Questao5;
+
