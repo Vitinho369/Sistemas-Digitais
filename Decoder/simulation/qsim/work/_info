@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Decoder\simulation\qsim
+vDecodificador
+Z1 I0XUoDn9SiKKJe:ekLW7jn1
+Z2 VdBH:PZDFh:OFHKVa]i:aP3
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Decoder\simulation\qsim
+Z4 w1721828974
+Z5 8Decodificador.vo
+Z6 FDecodificador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@decodificador
+!i10b 1
+Z10 !s100 4TF4Z920GTBn2<nR12USz0
+!s85 0
+Z11 !s108 1721828977.101000
+Z12 !s107 Decodificador.vo|
+Z13 !s90 -work|work|Decodificador.vo|
+!s101 -O0
+vDecodificador_vlg_check_tst
+!i10b 1
+!s100 EZMIzRG?`FS><<baXKl6N1
+IL2:M6YEeTIDLXIH=4eAYY2
+VVU=9Thz02JcU9B><KYe?13
+R3
+R4
+Z14 8Decodificador.vt
+Z15 FDecodificador.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1721828977.231000
+Z17 !s107 Decodificador.vt|
+Z18 !s90 -work|work|Decodificador.vt|
+!s101 -O0
+R8
+n@decodificador_vlg_check_tst
+vDecodificador_vlg_sample_tst
+!i10b 1
+!s100 RT7FBdC[ZCm[@BMhg]`Y>3
+Ii^]8V3zn53Ae<QLCha;Qo0
+VzPA>TbPnF1;>HcW2GVQS;3
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@decodificador_vlg_sample_tst
+vDecodificador_vlg_vec_tst
+!i10b 1
+!s100 mId4OFTH5n5;]Wm<^Zg6z2
+Ik@VT;jlIG2BAndkJ0ImVC1
+VFaMmLok<ZkoLK?GGCkHVm3
+R3
+R4
+R14
+R15
+L0 209
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@decodificador_vlg_vec_tst
