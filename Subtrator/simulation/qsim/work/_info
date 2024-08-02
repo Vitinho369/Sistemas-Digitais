@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Subtrator\simulation\qsim
+vSubtrator
+Z1 IM2^dZoC9RQXd9T^[g57h82
+Z2 V;8RPJFGVGacP=zKnJW3V01
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Subtrator\simulation\qsim
+Z4 w1722607903
+Z5 8Subtrator.vo
+Z6 FSubtrator.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@subtrator
+!i10b 1
+Z10 !s100 1m7^5=68Chc6<F7mRV8?j3
+!s85 0
+Z11 !s108 1722607905.624000
+Z12 !s107 Subtrator.vo|
+Z13 !s90 -work|work|Subtrator.vo|
+!s101 -O0
+vSubtrator_vlg_check_tst
+!i10b 1
+!s100 IF>5>4a19SQZdGa]1eCTJ2
+I<>7`EF@kCQjVgGB[Tl2cI2
+V6eKDhc;>=MNA8S0?Ka4Ca3
+R3
+R4
+Z14 8Subtrator.vt
+Z15 FSubtrator.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1722607905.722000
+Z17 !s107 Subtrator.vt|
+Z18 !s90 -work|work|Subtrator.vt|
+!s101 -O0
+R8
+n@subtrator_vlg_check_tst
+vSubtrator_vlg_sample_tst
+!i10b 1
+!s100 h=I^HKf<jl31H6e5LcZ0i3
+I=AJPNJU[2BW?d52XEIXFj2
+VhlckF8[U@2I15GI;eoeZU2
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@subtrator_vlg_sample_tst
+vSubtrator_vlg_vec_tst
+!i10b 1
+!s100 TO8^1W81;:i`KM`A633Q01
+ILm4TXBX3IS9DIS]HYSGIi3
+V@i>d^zZ`gzZnGFEZUZUBg0
+R3
+R4
+R14
+R15
+L0 156
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@subtrator_vlg_vec_tst

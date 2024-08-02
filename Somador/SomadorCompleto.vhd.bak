@@ -1,0 +1,10 @@
+ENTITY SomadorCompleto IS
+	PORT(Te, a, b: IN BIT
+			s, Ts : OUT BIT);
+END SomadorCompleto;
+
+ARCHITECTURE comportamento OF SOMadorCompleto IS
+BEGIN
+	s <= Te xor a xor b;
+	Ts <= (Te and a) or (Te and b) or (a and b);
+END comportamento;

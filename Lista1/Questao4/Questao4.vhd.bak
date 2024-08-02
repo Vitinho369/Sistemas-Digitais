@@ -1,0 +1,4 @@
+entity Questao4 is
+	port(a,b,c : in BIT;
+			s    : out BIT);
+end Questao4;

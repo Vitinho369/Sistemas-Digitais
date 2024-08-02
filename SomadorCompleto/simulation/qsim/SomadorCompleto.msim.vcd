@@ -1,0 +1,293 @@
+$comment
+	File created using the following command:
+		vcd file SomadorCompleto.msim.vcd -direction
+$end
+$date
+	Fri Aug 02 12:03:46 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module SomadorCompleto_vlg_vec_tst $end
+$var reg 3 ! a [2:0] $end
+$var reg 3 " b [2:0] $end
+$var reg 1 # Te $end
+$var wire 1 $ s [2] $end
+$var wire 1 % s [1] $end
+$var wire 1 & s [0] $end
+$var wire 1 ' TsFim $end
+$var wire 1 ( sampler $end
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / Te~combout $end
+$var wire 1 0 s~0_combout $end
+$var wire 1 1 Ts[1]~0_combout $end
+$var wire 1 2 Ts[1]~1_combout $end
+$var wire 1 3 s~1_combout $end
+$var wire 1 4 Ts[2]~2_combout $end
+$var wire 1 5 s~2_combout $end
+$var wire 1 6 Ts~3_combout $end
+$var wire 1 7 a~combout [2] $end
+$var wire 1 8 a~combout [1] $end
+$var wire 1 9 a~combout [0] $end
+$var wire 1 : b~combout [2] $end
+$var wire 1 ; b~combout [1] $end
+$var wire 1 < b~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 !
+b1 "
+0#
+0&
+1%
+0$
+0'
+x(
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+11
+02
+13
+04
+05
+06
+19
+08
+07
+1<
+0;
+0:
+$end
+#5000
+b11 !
+18
+0(
+14
+03
+15
+0%
+1$
+#10000
+b11 "
+1;
+1(
+13
+1%
+#15000
+b111 !
+b110 !
+b100 !
+09
+08
+17
+0(
+01
+10
+03
+16
+05
+04
+13
+1&
+0%
+1'
+0$
+06
+15
+1%
+0'
+1$
+#20000
+b10 "
+0<
+1(
+00
+0&
+#25000
+b0 "
+b110 !
+b1 "
+18
+1<
+0;
+0(
+10
+1&
+#30000
+b101 "
+b111 !
+b100 "
+19
+0<
+1:
+1(
+16
+05
+1'
+0$
+#35000
+b110 "
+b10 "
+b11 "
+1<
+1;
+0:
+0(
+11
+00
+14
+03
+06
+15
+13
+16
+05
+0&
+0%
+0'
+1$
+1%
+1'
+0$
+#40000
+b11 !
+b10 "
+0<
+07
+1(
+01
+10
+06
+15
+03
+1&
+0'
+1$
+0%
+#45000
+b1 !
+b0 "
+0;
+08
+0(
+04
+05
+0$
+#50000
+b101 !
+b1 "
+1<
+17
+1(
+11
+00
+15
+13
+0&
+1$
+1%
+#55000
+b101 "
+b111 !
+b11 !
+b100 "
+18
+07
+0<
+1:
+0(
+14
+03
+01
+10
+16
+05
+04
+13
+0%
+1&
+06
+15
+1'
+0$
+1%
+0'
+1$
+#60000
+b10 !
+b110 "
+b10 "
+b0 !
+1;
+0:
+09
+08
+1(
+05
+00
+0$
+0&
+#65000
+b11 "
+b1 !
+b111 "
+b11 !
+19
+18
+1<
+1:
+0(
+11
+14
+03
+15
+13
+16
+05
+0%
+1$
+1%
+1'
+0$
+#70000
+b10 !
+09
+1(
+01
+10
+03
+1&
+0%
+#75000
+b110 "
+b0 !
+b1 !
+19
+08
+0<
+0(
+04
+13
+06
+15
+1%
+0'
+1$
+#80000

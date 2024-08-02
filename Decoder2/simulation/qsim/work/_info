@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Decoder2\simulation\qsim
+vSeteSegmentos
+Z1 I7aJB=NLTGX`Kl3W[;n9Si2
+Z2 V4hU^2WPU_UK^6aU<TFFR:1
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Decoder2\simulation\qsim
+Z4 w1721833645
+Z5 8SeteSegmentos.vo
+Z6 FSeteSegmentos.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@sete@segmentos
+!i10b 1
+Z10 !s100 8SfH82fc_L73N@0_ADlh72
+!s85 0
+Z11 !s108 1721833646.068000
+Z12 !s107 SeteSegmentos.vo|
+Z13 !s90 -work|work|SeteSegmentos.vo|
+!s101 -O0
+vSeteSegmentos_vlg_check_tst
+!i10b 1
+!s100 2fkamZzV?=NoU63F>=TL11
+INngU;NLDif[f6TcNflm=i3
+V_^]i`Sbo3:e2fnbN8oCTi2
+R3
+Z14 w1721833644
+Z15 8SeteSegmentos.vt
+Z16 FSeteSegmentos.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1721833646.178000
+Z18 !s107 SeteSegmentos.vt|
+Z19 !s90 -work|work|SeteSegmentos.vt|
+!s101 -O0
+R8
+n@sete@segmentos_vlg_check_tst
+vSeteSegmentos_vlg_sample_tst
+!i10b 1
+!s100 @;fGD2hFG^AH2Tz[:_4:G1
+IOg:=[LSZXdmBMA>JXW6=k3
+V^7?;8I^5`zZo8IcNQV[Z60
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@sete@segmentos_vlg_sample_tst
+vSeteSegmentos_vlg_vec_tst
+!i10b 1
+!s100 F<SEgMKHLciYok?kgTZFz3
+IZP1Gg[AQiT>W_zM<FS:Fb1
+VQJ<6T_IX;^>Q0>@KfO6[h0
+R3
+R14
+R15
+R16
+L0 320
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@sete@segmentos_vlg_vec_tst
