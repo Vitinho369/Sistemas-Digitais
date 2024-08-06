@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Lista2\Questao1\simulation\qsim
+vMaquinas
+Z1 IlRYX]kCSe?]4Fiz^h]N3[3
+Z2 VAmiV1P[S291;jk7P1?SB]3
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Lista2\Questao1\simulation\qsim
+Z4 w1722972562
+Z5 8Maquinas.vo
+Z6 FMaquinas.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@maquinas
+!i10b 1
+Z10 !s100 S<dn6::aF9fQjFW7YE8K:0
+!s85 0
+Z11 !s108 1722972563.713000
+Z12 !s107 Maquinas.vo|
+Z13 !s90 -work|work|Maquinas.vo|
+!s101 -O0
+vMaquinas_vlg_check_tst
+!i10b 1
+!s100 cZlohl=z0<Vi[_oWn9:hz2
+Ihm57gGl82hPS8NzzoFV2@0
+Ve]KaF_7Poo>gMG>Q=X<E31
+R3
+Z14 w1722972561
+Z15 8Maquinas.vt
+Z16 FMaquinas.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1722972563.895000
+Z18 !s107 Maquinas.vt|
+Z19 !s90 -work|work|Maquinas.vt|
+!s101 -O0
+R8
+n@maquinas_vlg_check_tst
+vMaquinas_vlg_sample_tst
+!i10b 1
+!s100 KQO7ONKCNkeZ`WL^_>eO`3
+IK^4CjMDVQ^zNRfUfKOA1Q3
+V>5A5C:8>]]EkRz@mkKH^S2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@maquinas_vlg_sample_tst
+vMaquinas_vlg_vec_tst
+!i10b 1
+!s100 ZOelK<W]9?[H56<MWRcW^0
+Ilb`klFcde@hia;JCo?D[W3
+V8gZa48Jg[Cbz4cm6CI_EK3
+R3
+R14
+R15
+R16
+L0 239
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@maquinas_vlg_vec_tst

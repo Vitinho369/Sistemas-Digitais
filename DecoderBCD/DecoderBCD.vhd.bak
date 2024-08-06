@@ -1,0 +1,23 @@
+entity bcdTo2between5 is
+	port(bcd: IN BIT_VECTOR(0 TO 3);
+		2between5: OUT BIT_VECTOR(0 TO 4);
+	);
+end bcdTo2between5;
+
+architecture comportamento of bcdTo2between5 is
+begin
+	with bcd select
+		2between5 <= 0000" WHEN "0011",
+						"0001" WHEN "0100",
+						"0010" WHEN "0101",
+						"0011" WHEN "0110",
+						"0100" WHEN "0111",
+						"0101" WHEN "1000",
+						"0110" WHEN "1001",
+						"0111" WHEN "1010",
+						"1000" WHEN "1011",
+						"1001" WHEN "1100",
+						"1111" WHEN OTHERS;
+
+
+end comporta

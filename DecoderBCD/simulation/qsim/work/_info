@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\DecoderBCD\simulation\qsim
+vDecoderBCD
+Z1 Ie`aFLK@D@iQKfhOa0@OUY3
+Z2 VOofc3nO3lDK5Z3ZbfIMSO2
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\DecoderBCD\simulation\qsim
+Z4 w1722971558
+Z5 8DecoderBCD.vo
+Z6 FDecoderBCD.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|DecoderBCD.vo|
+Z9 o-work work -O0
+Z10 n@decoder@b@c@d
+!i10b 1
+Z11 !s100 X]c]Y^2[lAB=3fa_<WMj21
+!s85 0
+Z12 !s108 1722971559.694000
+Z13 !s107 DecoderBCD.vo|
+!s101 -O0
+vDecoderBCD_vlg_check_tst
+!i10b 1
+Z14 !s100 bBBlTgQD`c1EzFICC8AfY2
+Z15 IU;3==[?NF7R2984dM;c^=1
+Z16 VMLAOW4QOBEY4hH_3OJH2^1
+R3
+R4
+Z17 8DecoderBCD.vt
+Z18 FDecoderBCD.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z19 !s108 1722971559.831000
+Z20 !s107 DecoderBCD.vt|
+Z21 !s90 -work|work|DecoderBCD.vt|
+!s101 -O0
+R9
+Z22 n@decoder@b@c@d_vlg_check_tst
+vDecoderBCD_vlg_sample_tst
+!i10b 1
+Z23 !s100 aAVBd6CSQHK@dP[8>8Z[j1
+Z24 In6jAzjVY[=mn;zEETM0B01
+Z25 Vn>=V06>1mhlI^gR32HY0V2
+R3
+R4
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+Z26 n@decoder@b@c@d_vlg_sample_tst
+vDecoderBCD_vlg_vec_tst
+!i10b 1
+Z27 !s100 KC0ADj9j<c<ke=>4cNCn:0
+Z28 IG=<R2TVT3caeA4[X`GAWC1
+Z29 VjXdG9>0CK>;8a`]d1@[>93
+R3
+R4
+R17
+R18
+Z30 L0 223
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+Z31 n@decoder@b@c@d_vlg_vec_tst

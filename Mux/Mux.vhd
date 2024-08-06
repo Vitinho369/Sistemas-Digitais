@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.ALL;
+
+ENTITY Mux IS
+	PORT(I0, I1, I2, I3 : IN STD_LOGIC;
+				S1, S0 : IN STD_LOGIC;
+				T : OUT STD_LOGIC);
+END Mux;
+
+ARCHITECTURE comportamento OF Mux IS
+BEGIN
+	PROCESS (S0, S1)BEGIN
+			IF S0 = '0' and S1='0' THEN
+				T <= I0;
+			ELSIF S0='0' and S1='1' THEN
+				T <= I1;
+			ELSIF S0='1' and S1='0' THEN
+				T <= I2;	
+			ELSIF S0='1' and S1='1' THEN
+				T <= I3;
+			END IF;
+	
+	END PROCESS;
+
+END comportamento;

@@ -1,0 +1,6 @@
+ENTITY Maquinas IS
+	PORT(
+		a,b,c,d : IN BIT;
+		M1, M2, M3, M4 : OUT BIT
+	);
+END Maquinas;

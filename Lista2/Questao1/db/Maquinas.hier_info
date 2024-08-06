@@ -1,0 +1,22 @@
+|Maquinas
+a => M1.DATAIN
+a => M3.IN0
+a => M4.IN0
+a => M4.IN0
+b => M2.DATAIN
+b => M3.IN0
+b => M4.IN1
+b => M4.IN0
+c => M3.IN1
+c => M3.IN1
+c => M4.IN1
+c => M4.IN1
+d => M4.IN1
+d => M4.IN1
+d => M4.IN1
+M1 <= a.DB_MAX_OUTPUT_PORT_TYPE
+M2 <= b.DB_MAX_OUTPUT_PORT_TYPE
+M3 <= M3.DB_MAX_OUTPUT_PORT_TYPE
+M4 <= M4.DB_MAX_OUTPUT_PORT_TYPE
+
+

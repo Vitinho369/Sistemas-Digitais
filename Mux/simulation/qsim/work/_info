@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Mux\simulation\qsim
+vMux
+Z1 IGDf8jiS6dm2k^XoSIe^Oj2
+Z2 VQVK7MnLGSXZJa=[nbaS>n1
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Mux\simulation\qsim
+Z4 w1722871642
+Z5 8Mux.vo
+Z6 FMux.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Mux.vo|
+Z9 o-work work -O0
+n@mux
+!i10b 1
+Z10 !s100 Qo6A[;`W]_7]f>8DcQe^L1
+!s85 0
+Z11 !s108 1722871643.493000
+Z12 !s107 Mux.vo|
+!s101 -O0
+vMux_vlg_check_tst
+!i10b 1
+Z13 !s100 Ydn>kliAO:MC0g3ZhS5AR2
+Z14 I;eXl68@N8mFl8NFfEDF?O1
+Z15 VEH5<@Fh1BX64<fAkWYBTZ0
+R3
+R4
+Z16 8Mux.vt
+Z17 FMux.vt
+L0 67
+R7
+r1
+!s85 0
+31
+Z18 !s108 1722871643.623000
+Z19 !s107 Mux.vt|
+Z20 !s90 -work|work|Mux.vt|
+!s101 -O0
+R9
+Z21 n@mux_vlg_check_tst
+vMux_vlg_sample_tst
+!i10b 1
+Z22 !s100 h4n]F>86<]0Y4DlP2>Y<A3
+Z23 I2P;JESWO019aDGc9Ljiai1
+Z24 V;I]WnjQ_E5517A_zIAd:b1
+R3
+R4
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z25 n@mux_vlg_sample_tst
+vMux_vlg_vec_tst
+!i10b 1
+Z26 !s100 DIJjP35DkR[16b=<jFffl1
+Z27 IFWV:1P30^M3G5kUab46>i1
+Z28 VRT93FA6P34^FXKWVg8g540
+R3
+R4
+R16
+R17
+Z29 L0 162
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z30 n@mux_vlg_vec_tst

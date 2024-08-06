@@ -1,0 +1,16 @@
+|Mux
+I0 => T.DATAB
+I1 => T.DATAB
+I2 => T.DATAB
+I3 => T.DATAA
+S1 => process_0.IN0
+S1 => process_0.IN0
+S1 => process_0.IN0
+S1 => process_0.IN0
+S0 => process_0.IN1
+S0 => process_0.IN1
+S0 => process_0.IN1
+S0 => process_0.IN1
+T <= T$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
