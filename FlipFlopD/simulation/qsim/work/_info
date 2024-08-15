@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\FlipFlopD\simulation\qsim
+vFlipFlopD
+Z1 !s100 kh;NDHediFmSa5kf22Gga1
+Z2 IQ?TE5B_<S3TR>[Xb>8UgP2
+Z3 VAB5=@QCd;nf7ihOnE^fU]1
+Z4 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\FlipFlopD\simulation\qsim
+Z5 w1723473811
+Z6 8FlipflopD.vo
+Z7 FFlipflopD.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|FlipflopD.vo|
+Z10 o-work work -O0
+Z11 n@flip@flop@d
+Z12 !s108 1723473811.823000
+Z13 !s107 FlipflopD.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vFlipflopD
+Z14 I=YhIfJ>M:`66AG3:0=DCD3
+Z15 VG16aM>]lEG5k8Ua91VHWc3
+R4
+Z16 w1723473942
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z17 n@flipflop@d
+!i10b 1
+Z18 !s100 a=GnJ6QLoI=fSIgz3GLL`2
+!s85 0
+Z19 !s108 1723473943.770000
+R13
+!s101 -O0
+vFlipflopD_vlg_check_tst
+!i10b 1
+!s100 e1f3KY9c@OFX<O;^;W5k<0
+Il5O>899e4h_@2VcF;1MMQ3
+VMISeY^1HK5IZEP:9?0`6L2
+R4
+R16
+Z20 8FlipflopD.vt
+Z21 FFlipflopD.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z22 !s108 1723473943.874000
+Z23 !s107 FlipflopD.vt|
+Z24 !s90 -work|work|FlipflopD.vt|
+!s101 -O0
+R10
+n@flipflop@d_vlg_check_tst
+vFlipFlopD_vlg_check_tst
+Z25 !s100 G;VUND1fh0ba:5@zdRPYV1
+Z26 ImEcOngKa8DbMa1Jk4jD1<0
+Z27 VS=OE^W@V0j:WknNL6BH]^1
+R4
+Z28 w1723473810
+R20
+R21
+L0 59
+R8
+r1
+31
+Z29 !s108 1723473811.929000
+Z30 !s107 FlipflopD.vt|
+R24
+R10
+Z31 n@flip@flop@d_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vFlipflopD_vlg_sample_tst
+!i10b 1
+!s100 GbQ1?SDNYdMXbzD1h>F3P0
+IZ97:ObEW_O69C2B==h84T3
+V=P@eI^^o@1Zj:9m`Vc5;J3
+R4
+R16
+R20
+R21
+L0 29
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!s101 -O0
+R10
+n@flipflop@d_vlg_sample_tst
+vFlipFlopD_vlg_sample_tst
+Z32 !s100 hBF[4^nK12=Bkm38b:enk1
+Z33 I1IPTcCl>28m]6Z5EzkjGm2
+Z34 V49N?UYnR:>4Tj9Def?:_]1
+R4
+R28
+R20
+R21
+L0 29
+R8
+r1
+31
+R29
+R30
+R24
+R10
+Z35 n@flip@flop@d_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vFlipflopD_vlg_vec_tst
+!i10b 1
+!s100 JNBdUOQKT<M`S3a0mj2NU3
+I?35AiA?kFc78N2=C^gfgJ2
+V]z6g6CPQd_19J4mcT:@g82
+R4
+R16
+R20
+R21
+Z36 L0 154
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!s101 -O0
+R10
+n@flipflop@d_vlg_vec_tst
+vFlipFlopD_vlg_vec_tst
+Z37 !s100 o_Z1_RNbYDJ7]ZgM7oT@D0
+Z38 INaiRJA:CjE:nGY6nko9Kg2
+Z39 V0NC>8OZc?2PHmV<^gej5N3
+R4
+R28
+R20
+R21
+R36
+R8
+r1
+31
+R29
+R30
+R24
+R10
+Z40 n@flip@flop@d_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0

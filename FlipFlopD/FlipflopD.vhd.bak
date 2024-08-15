@@ -1,0 +1,16 @@
+ENTITY fdd IS
+	PORT(d: IN BIT;
+		clk: IN BIT;
+		q: OUT BIT;
+	);
+END fdd;
+
+ARCHITECTURE comportamento OF fdd IS
+BEGIN
+	PROCESS(clk)
+		BEGIN
+			IF(clk'EVENT AND clk = '1') THEN
+				q <= d;
+			END IF;
+		END PROCESS;
+END comportamento;

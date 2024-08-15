@@ -1,0 +1,6 @@
+ENTITY Questao2 IS
+	PORT(
+		bcd: BIT_VECTOR(3 DOWNTO 0);
+		bcdP2entre5 : BIT_VECTOR(4 DOWNTO 0);
+	);
+END Questao2;

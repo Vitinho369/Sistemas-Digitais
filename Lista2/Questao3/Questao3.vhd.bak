@@ -1,0 +1,9 @@
+ENTITY grayToJohnson IS
+	PORT (entrada : IN BIT_VECTOR(3 DOWNTO 0);
+			saida : OUT BIT_VECTOR(3 DOWNTO 0));
+END grayToJohnson;
+
+ARCHITECTURE comportamento OF grayToJohnson IS
+BEGIN
+
+END comportamento;
