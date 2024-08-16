@@ -1,0 +1,21 @@
+|Questao5
+a[0] => s.IN0
+a[0] => Ts.IN0
+a[0] => Ts.IN0
+a[1] => s.IN1
+a[1] => Ts.IN1
+a[1] => Ts.IN0
+b[0] => s.IN1
+b[0] => Ts.IN0
+b[0] => Ts.IN1
+b[1] => s.IN1
+b[1] => Ts.IN1
+b[1] => Ts.IN1
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+TsFim <= Ts.DB_MAX_OUTPUT_PORT_TYPE
+Te => s.IN1
+Te => Ts.IN1
+Te => Ts.IN1
+
+

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Lista2\Questao5\simulation\qsim
+vQuestao5
+Z1 Ieaf=681lmFS<lP3FHDzON1
+Z2 VeD^i0M8j[cB8J<zY354mV0
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Lista2\Questao5\simulation\qsim
+Z4 w1723805447
+Z5 8Questao5.vo
+Z6 FQuestao5.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@questao5
+!i10b 1
+Z10 !s100 NXcc2d<nzSUTO=E7_n9jG3
+!s85 0
+Z11 !s108 1723805449.743000
+Z12 !s107 Questao5.vo|
+Z13 !s90 -work|work|Questao5.vo|
+!s101 -O0
+vQuestao5_vlg_check_tst
+!i10b 1
+!s100 dmQN<ZGXT0iPZg^<IgV3O2
+ISjglIWlOXo>dzagkef^YE3
+V5c<5afF5dZ>Xk^4:i`Xi>0
+R3
+Z14 w1723805446
+Z15 8Questao5.vt
+Z16 FQuestao5.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1723805449.856000
+Z18 !s107 Questao5.vt|
+Z19 !s90 -work|work|Questao5.vt|
+!s101 -O0
+R8
+n@questao5_vlg_check_tst
+vQuestao5_vlg_sample_tst
+!i10b 1
+!s100 ^lkgzeRz?c^Zm4Qo_V]cc2
+IYRoMEZLHOTGFYzP=zc:2@3
+V_NL>@T_YEj`KhF^jh^WEQ2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@questao5_vlg_sample_tst
+vQuestao5_vlg_vec_tst
+!i10b 1
+!s100 cB]cB4e23hcB8ckJVHgoo2
+In_WgG;lQiB?I^LLPWPdce3
+V:6MOAYl5Tk;5:Q1Te@RaM2
+R3
+R14
+R15
+R16
+L0 200
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@questao5_vlg_vec_tst

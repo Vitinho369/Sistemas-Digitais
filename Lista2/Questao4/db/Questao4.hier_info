@@ -1,0 +1,7 @@
+|Questao4
+a => p.IN0
+b => p.IN1
+c => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
