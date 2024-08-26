@@ -1,0 +1,117 @@
+|relogio
+clk => unidade_seg:u1.clk_in_uni_seg
+seg71[0] <= <VCC>
+seg71[1] <= seg71.DB_MAX_OUTPUT_PORT_TYPE
+seg71[2] <= seg71.DB_MAX_OUTPUT_PORT_TYPE
+seg71[3] <= seg71.DB_MAX_OUTPUT_PORT_TYPE
+seg71[4] <= seg71.DB_MAX_OUTPUT_PORT_TYPE
+seg71[5] <= seg71.DB_MAX_OUTPUT_PORT_TYPE
+seg71[6] <= seg71.DB_MAX_OUTPUT_PORT_TYPE
+seg71[7] <= seg71.DB_MAX_OUTPUT_PORT_TYPE
+seg72[0] <= <VCC>
+seg72[1] <= seg72.DB_MAX_OUTPUT_PORT_TYPE
+seg72[2] <= seg72.DB_MAX_OUTPUT_PORT_TYPE
+seg72[3] <= seg72.DB_MAX_OUTPUT_PORT_TYPE
+seg72[4] <= seg72.DB_MAX_OUTPUT_PORT_TYPE
+seg72[5] <= seg72.DB_MAX_OUTPUT_PORT_TYPE
+seg72[6] <= seg72.DB_MAX_OUTPUT_PORT_TYPE
+seg72[7] <= seg72.DB_MAX_OUTPUT_PORT_TYPE
+seg73[0] <= <VCC>
+seg73[1] <= seg73.DB_MAX_OUTPUT_PORT_TYPE
+seg73[2] <= seg73.DB_MAX_OUTPUT_PORT_TYPE
+seg73[3] <= seg73.DB_MAX_OUTPUT_PORT_TYPE
+seg73[4] <= seg73.DB_MAX_OUTPUT_PORT_TYPE
+seg73[5] <= seg73.DB_MAX_OUTPUT_PORT_TYPE
+seg73[6] <= seg73.DB_MAX_OUTPUT_PORT_TYPE
+seg73[7] <= seg73.DB_MAX_OUTPUT_PORT_TYPE
+seg74[0] <= <VCC>
+seg74[1] <= seg74.DB_MAX_OUTPUT_PORT_TYPE
+seg74[2] <= seg74.DB_MAX_OUTPUT_PORT_TYPE
+seg74[3] <= seg74.DB_MAX_OUTPUT_PORT_TYPE
+seg74[4] <= seg74.DB_MAX_OUTPUT_PORT_TYPE
+seg74[5] <= seg74.DB_MAX_OUTPUT_PORT_TYPE
+seg74[6] <= seg74.DB_MAX_OUTPUT_PORT_TYPE
+seg74[7] <= seg74.DB_MAX_OUTPUT_PORT_TYPE
+seg75[0] <= <VCC>
+seg75[1] <= seg75.DB_MAX_OUTPUT_PORT_TYPE
+seg75[2] <= seg75.DB_MAX_OUTPUT_PORT_TYPE
+seg75[3] <= seg75.DB_MAX_OUTPUT_PORT_TYPE
+seg75[4] <= seg75.DB_MAX_OUTPUT_PORT_TYPE
+seg75[5] <= seg75.DB_MAX_OUTPUT_PORT_TYPE
+seg75[6] <= seg75.DB_MAX_OUTPUT_PORT_TYPE
+seg75[7] <= seg75.DB_MAX_OUTPUT_PORT_TYPE
+seg76[0] <= <VCC>
+seg76[1] <= seg76.DB_MAX_OUTPUT_PORT_TYPE
+seg76[2] <= Equal43.DB_MAX_OUTPUT_PORT_TYPE
+seg76[3] <= seg76.DB_MAX_OUTPUT_PORT_TYPE
+seg76[4] <= seg76.DB_MAX_OUTPUT_PORT_TYPE
+seg76[5] <= seg76.DB_MAX_OUTPUT_PORT_TYPE
+seg76[6] <= seg76.DB_MAX_OUTPUT_PORT_TYPE
+seg76[7] <= seg76.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio|unidade_seg:u1
+clk_in_uni_seg => clk_out_tmp_seg.CLK
+clk_in_uni_seg => uni_seg[0].CLK
+clk_in_uni_seg => uni_seg[1].CLK
+clk_in_uni_seg => uni_seg[2].CLK
+clk_in_uni_seg => uni_seg[3].CLK
+clk_out_uni_seg <= clk_out_tmp_seg.DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_seg[0] <= uni_seg[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_seg[1] <= uni_seg[1].DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_seg[2] <= uni_seg[2].DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_seg[3] <= uni_seg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio|dezena_seg:u2
+clk_in_dez_seg => dez[0].CLK
+clk_in_dez_seg => dez[1].CLK
+clk_in_dez_seg => dez[2].CLK
+clk_out_dez_seg <= comb.DB_MAX_OUTPUT_PORT_TYPE
+bcd_dez_seg[0] <= dez[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd_dez_seg[1] <= dez[1].DB_MAX_OUTPUT_PORT_TYPE
+bcd_dez_seg[2] <= dez[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio|unidade_min:u3
+clk_in_uni_min => clk_out_tmp_min.CLK
+clk_in_uni_min => uni_min[0].CLK
+clk_in_uni_min => uni_min[1].CLK
+clk_in_uni_min => uni_min[2].CLK
+clk_in_uni_min => uni_min[3].CLK
+clk_out_uni_min <= clk_out_tmp_min.DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_min[0] <= uni_min[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_min[1] <= uni_min[1].DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_min[2] <= uni_min[2].DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_min[3] <= uni_min[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio|dezena_min:u4
+clk_in_dez_min => clk_out_tmp_min.CLK
+clk_in_dez_min => dez[0].CLK
+clk_in_dez_min => dez[1].CLK
+clk_in_dez_min => dez[2].CLK
+clk_out_dez_min <= clk_out_tmp_min.DB_MAX_OUTPUT_PORT_TYPE
+bcd_dez_min[0] <= dez[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd_dez_min[1] <= dez[1].DB_MAX_OUTPUT_PORT_TYPE
+bcd_dez_min[2] <= dez[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio|unihora:u5
+clk_in_uni_hr => clk_out_tmp_hr.CLK
+clk_in_uni_hr => unihora[0].CLK
+clk_in_uni_hr => unihora[1].CLK
+clk_in_uni_hr => unihora[2].CLK
+clk_out_uni_hr <= clk_out_tmp_hr.DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_hr[0] <= unihora[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_hr[1] <= unihora[1].DB_MAX_OUTPUT_PORT_TYPE
+bcd_uni_hr[2] <= unihora[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio|dezhora:u6
+clk_in_dez_hora => dezhr[0].CLK
+clk_in_dez_hora => dezhr[1].CLK
+bcd_dez_hora[0] <= dezhr[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd_dez_hora[1] <= dezhr[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,73 @@
+|Somador
+A[0] => S.IN0
+A[0] => Ts.IN0
+A[0] => Ts.IN0
+A[1] => S.IN1
+A[1] => Ts.IN1
+A[1] => Ts.IN0
+A[2] => S.IN1
+A[2] => Ts.IN1
+A[2] => Ts.IN0
+B[0] => S.IN1
+B[0] => Ts.IN0
+B[0] => Ts.IN1
+B[1] => S.IN1
+B[1] => Ts.IN1
+B[1] => Ts.IN1
+B[2] => S.IN1
+B[2] => Ts.IN1
+B[2] => Ts.IN1
+Te => S.IN1
+Te => Ts.IN1
+Te => Ts.IN1
+S[0] << S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] << S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] << S.DB_MAX_OUTPUT_PORT_TYPE
+TsFim << Ts.DB_MAX_OUTPUT_PORT_TYPE
+saidasDisplay[6] <= BCDToDisplay:d.display[6]
+saidasDisplay[5] <= BCDToDisplay:d.display[5]
+saidasDisplay[4] <= BCDToDisplay:d.display[4]
+saidasDisplay[3] <= BCDToDisplay:d.display[3]
+saidasDisplay[2] <= BCDToDisplay:d.display[2]
+saidasDisplay[1] <= BCDToDisplay:d.display[1]
+saidasDisplay[0] <= BCDToDisplay:d.display[0]
+
+
+|Somador|BCDToDisplay:d
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+display[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+display[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+display[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+display[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+display[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+display[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+display[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

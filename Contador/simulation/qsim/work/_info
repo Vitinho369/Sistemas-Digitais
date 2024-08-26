@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Contador\simulation\qsim
+vContador
+Z1 IJm31_e5:XHgm?_`^WQ]E40
+Z2 V;00a@C7lRzf8MO9zH`Rd63
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Contador\simulation\qsim
+Z4 w1724074045
+Z5 8Contador.vo
+Z6 FContador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@contador
+!i10b 1
+Z10 !s100 WGAl5f;M_2V17QS4K73>Q1
+!s85 0
+Z11 !s108 1724074047.643000
+Z12 !s107 Contador.vo|
+Z13 !s90 -work|work|Contador.vo|
+!s101 -O0
+vContador_vlg_check_tst
+!i10b 1
+!s100 clBOhJLz33kh=LAXWKT=b2
+I^:03V1FM[g8]>PkW>z2BD3
+VW=DdnH1?=1ACX7]R14j373
+R3
+R4
+Z14 8Contador.vt
+Z15 FContador.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1724074047.756000
+Z17 !s107 Contador.vt|
+Z18 !s90 -work|work|Contador.vt|
+!s101 -O0
+R8
+n@contador_vlg_check_tst
+vContador_vlg_sample_tst
+!i10b 1
+!s100 f6GUkONiegdN]3jKBQlZI2
+I`zi485bm<:REkCULI_bGl2
+VCiXUC5Vg4ToVb;5Q6n1T@3
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@contador_vlg_sample_tst
+vContador_vlg_vec_tst
+!i10b 1
+!s100 nL9QZ`cQ8;9fFbEnP1>A]2
+IUbm4aa^G0CLla9EYcB<1f3
+Vf_Z>l^e23S3fS:3_gI:Ch1
+R3
+R4
+R14
+R15
+L0 207
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@contador_vlg_vec_tst

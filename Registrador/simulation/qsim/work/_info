@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Registrador\simulation\qsim
+vRegistrador
+Z1 I?PcHXF3jN2;L;AYZ?3gC40
+Z2 VE6hAFUUR3P0m7>L=6A59P2
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\Registrador\simulation\qsim
+Z4 w1724075668
+Z5 8Registrador.vo
+Z6 FRegistrador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@registrador
+!i10b 1
+Z10 !s100 m9nF2Z2zH6=L_1_:6M]@P1
+!s85 0
+Z11 !s108 1724075669.507000
+Z12 !s107 Registrador.vo|
+Z13 !s90 -work|work|Registrador.vo|
+!s101 -O0
+vRegistrador_vlg_check_tst
+!i10b 1
+!s100 o4^l3joQTkzbS>5WMN1m]0
+I?>bm0;J[?>AYDWEc;H6SU1
+V]_4D]kKeW<USF0KEi7?293
+R3
+Z14 w1724075667
+Z15 8Registrador.vt
+Z16 FRegistrador.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1724075669.612000
+Z18 !s107 Registrador.vt|
+Z19 !s90 -work|work|Registrador.vt|
+!s101 -O0
+R8
+n@registrador_vlg_check_tst
+vRegistrador_vlg_sample_tst
+!i10b 1
+!s100 cOgELjXnXXHXVP2en]oS20
+IA5e<gfEINlXgj_mz]KUCO0
+VXM@h?e`aWJmkIc<h@3iMW3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@registrador_vlg_sample_tst
+vRegistrador_vlg_vec_tst
+!i10b 1
+!s100 ?ALQHSZWg_DP0kGz[RY5C0
+IeKY15LE`[`?2;=9hWREG01
+VQaPY9@A8kK<X1:a=]`RCD0
+R3
+R14
+R15
+R16
+L0 209
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@registrador_vlg_vec_tst

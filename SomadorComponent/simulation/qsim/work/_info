@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\SomadorComponent\simulation\qsim
+vSomador
+Z1 IHJPHl^mkd?2_=?FBE@_QK2
+Z2 V7o7SgWJaZgjn7o631fXcA3
+Z3 dC:\Users\vitin\Documents\TADS\SistemasDigitais\Sistemas-Digitais\SomadorComponent\simulation\qsim
+Z4 w1724079190
+Z5 8Somador.vo
+Z6 FSomador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@somador
+!i10b 1
+Z10 !s100 LO:f<A3j?E[mFV2Ik46h_3
+!s85 0
+Z11 !s108 1724079191.431000
+Z12 !s107 Somador.vo|
+Z13 !s90 -work|work|Somador.vo|
+!s101 -O0
+vSomador_vlg_check_tst
+!i10b 1
+!s100 C^jbM[`:h[YKh_@dfbKVi1
+IRD4:hlQnE;B^aP?I<;E6=0
+V;83WMPVoeEKLo:8ej00A_0
+R3
+R4
+Z14 8Somador.vt
+Z15 FSomador.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1724079191.524000
+Z17 !s107 Somador.vt|
+Z18 !s90 -work|work|Somador.vt|
+!s101 -O0
+R8
+n@somador_vlg_check_tst
+vSomador_vlg_sample_tst
+!i10b 1
+!s100 0=KcE:6HTVB@A9JRST9fh0
+I4<:IkYI@KGHfZXTXNzZ^j3
+VIzSd_`nifhOO:9XY_ag9R1
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@somador_vlg_sample_tst
+vSomador_vlg_vec_tst
+!i10b 1
+!s100 <XJhT;`k6iSF11MDTB59B0
+Ibh1S1BMSN3ZPX547cZeeQ2
+V@o8:8_:__UG]z4kKP<f=82
+R3
+R4
+R14
+R15
+L0 352
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@somador_vlg_vec_tst
