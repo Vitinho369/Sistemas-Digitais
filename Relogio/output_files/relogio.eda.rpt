@@ -1,6 +1,6 @@
 EDA Netlist Writer report for relogio
-Thu Aug 22 18:05:21 2024
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Wed Aug 28 08:40:26 2024
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Aug 22 18:05:21 2024 ;
+; EDA Netlist Writer Status ; Successful - Wed Aug 28 08:40:26 2024 ;
 ; Revision Name             ; relogio                               ;
 ; Top-level Entity Name     ; relogio                               ;
 ; Family                    ; Cyclone II                            ;
@@ -66,31 +66,31 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                        ;
-+-------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                   ;
-+-------------------------------------------------------------------------------------------------------------------+
-; C:/Users/vitin/Documents/TADS/SistemasDigitais/Sistemas-Digitais/Relogio/simulation/modelsim/relogio.vho          ;
-; C:/Users/vitin/Documents/TADS/SistemasDigitais/Sistemas-Digitais/Relogio/simulation/modelsim/relogio_fast.vho     ;
-; C:/Users/vitin/Documents/TADS/SistemasDigitais/Sistemas-Digitais/Relogio/simulation/modelsim/relogio_vhd.sdo      ;
-; C:/Users/vitin/Documents/TADS/SistemasDigitais/Sistemas-Digitais/Relogio/simulation/modelsim/relogio_vhd_fast.sdo ;
-+-------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                       ;
++----------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                  ;
++----------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/Eletrônica/Downloads/Sistemas-Digitais-master/Sistemas-Digitais-master/Relogio/simulation/modelsim/relogio.vho          ;
+; C:/Users/Eletrônica/Downloads/Sistemas-Digitais-master/Sistemas-Digitais-master/Relogio/simulation/modelsim/relogio_fast.vho     ;
+; C:/Users/Eletrônica/Downloads/Sistemas-Digitais-master/Sistemas-Digitais-master/Relogio/simulation/modelsim/relogio_vhd.sdo      ;
+; C:/Users/Eletrônica/Downloads/Sistemas-Digitais-master/Sistemas-Digitais-master/Relogio/simulation/modelsim/relogio_vhd_fast.sdo ;
++----------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
 ; EDA Netlist Writer Messages ;
 +-----------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit EDA Netlist Writer
+Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Aug 22 18:05:21 2024
+    Info: Processing started: Wed Aug 28 08:40:26 2024
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off relogio -c relogio
-Info (204026): Generated files "relogio.vho", "relogio_fast.vho", "relogio_vhd.sdo" and "relogio_vhd_fast.sdo" in directory "C:/Users/vitin/Documents/TADS/SistemasDigitais/Sistemas-Digitais/Relogio/simulation/modelsim/" for EDA simulation tool
-Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 329 megabytes
-    Info: Processing ended: Thu Aug 22 18:05:22 2024
-    Info: Elapsed time: 00:00:01
+Info (204026): Generated files "relogio.vho", "relogio_fast.vho", "relogio_vhd.sdo" and "relogio_vhd_fast.sdo" in directory "C:/Users/Eletrônica/Downloads/Sistemas-Digitais-master/Sistemas-Digitais-master/Relogio/simulation/modelsim/" for EDA simulation tool
+Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4519 megabytes
+    Info: Processing ended: Wed Aug 28 08:40:26 2024
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 

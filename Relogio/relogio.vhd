@@ -5,12 +5,12 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity relogio is
     port (clk : in std_logic;
-		seg71: out std_logic_vector (7 downto 0);
-		seg72: out std_logic_vector (7 downto 0);
-		seg73: out std_logic_vector (7 downto 0);
-		seg74: out std_logic_vector (7 downto 0);
-		seg75: out std_logic_vector (7 downto 0);
-		seg76: out std_logic_vector (7 downto 0));
+		seg71: out std_logic_vector (6 downto 0);
+		seg72: out std_logic_vector (6 downto 0);
+		seg73: out std_logic_vector (6 downto 0);
+		seg74: out std_logic_vector (6 downto 0);
+		seg75: out std_logic_vector (6 downto 0);
+		seg76: out std_logic_vector (6 downto 0));
 end relogio;
 
  architecture Behavioral of relogio is
@@ -18,22 +18,22 @@ end relogio;
 	 signal bcddezseg :   STD_LOGIC_vector (2 downto 0);
 	 signal bcdunimin :   STD_LOGIC_vector (3 downto 0);
 	 signal bcddezmin :   STD_LOGIC_vector (2 downto 0);
-	 signal bcdunihr :  STD_LOGIC_vector (2 downto 0);
+	 signal bcdunihr :  STD_LOGIC_vector (3 downto 0);
 	 signal bcddezhora :   STD_LOGIC_vector (1 downto 0);
 	 signal clock : std_logic_vector (5 downto 1);
 
 --                                         segmento mostrador:              abcdefgh (h=ponto)
-constant num0: STD_LOGIC_vector (7 downto 0) := "00000011"; -- codigo numero 0
-constant num1: STD_LOGIC_vector (7 downto 0) := "10011111"; -- codigo numero 1
-constant num2: STD_LOGIC_vector (7 downto 0) := "00100101"; -- codigo numero 2
-constant num3: STD_LOGIC_vector (7 downto 0) := "00001101"; -- codigo numero 3
-constant num4: STD_LOGIC_vector (7 downto 0) := "10011001"; -- codigo numero 4
-constant num5: STD_LOGIC_vector (7 downto 0) := "01001001"; -- codigo numero 5
-constant num6: STD_LOGIC_vector (7 downto 0) := "11000001"; -- codigo numero 6
-constant num7: STD_LOGIC_vector (7 downto 0) := "00011111"; -- codigo numero 7
-constant num8: STD_LOGIC_vector (7 downto 0) := "00000001"; -- codigo numero 8
-constant num9: STD_LOGIC_vector (7 downto 0) := "00011001"; -- codigo numero 9
-constant numn: STD_LOGIC_vector (7 downto 0) := "11111111"; -- apaga tudo
+constant num0: STD_LOGIC_vector (6 downto 0) := "1000000"; -- codigo numero 0
+constant num1: STD_LOGIC_vector (6 downto 0) := "1111001"; -- codigo numero 1
+constant num2: STD_LOGIC_vector (6 downto 0) := "0100100"; -- codigo numero 2
+constant num3: STD_LOGIC_vector (6 downto 0) := "0110000"; -- codigo numero 3
+constant num4: STD_LOGIC_vector (6 downto 0) := "0011001"; -- codigo numero 4
+constant num5: STD_LOGIC_vector (6 downto 0) := "0010010"; -- codigo numero 5
+constant num6: STD_LOGIC_vector (6 downto 0) := "0000010"; -- codigo numero 6
+constant num7: STD_LOGIC_vector (6 downto 0) := "1111000"; -- codigo numero 7
+constant num8: STD_LOGIC_vector (6 downto 0) := "0000000"; -- codigo numero 8
+constant num9: STD_LOGIC_vector (6 downto 0) := "0011000"; -- codigo numero 9
+constant numn: STD_LOGIC_vector (6 downto 0) := "0000000"; -- apaga tudo
 
 	  component unidade_seg is
 		 Port ( clk_in_uni_seg: in std_logic;
@@ -63,7 +63,7 @@ constant numn: STD_LOGIC_vector (7 downto 0) := "11111111"; -- apaga tudo
 	  component unihora is
 		 Port ( clk_in_uni_hr: in std_logic;
 					  clk_out_uni_hr : out  std_logic;
-					  bcd_uni_hr : out  STD_LOGIC_vector (2 downto 0));
+					  bcd_uni_hr : out  STD_LOGIC_vector (3 downto 0));
 	  end component;
 	 
 	  component dezhora is
@@ -147,6 +147,11 @@ constant numn: STD_LOGIC_vector (7 downto 0) := "11111111"; -- apaga tudo
 								 num2 when bcdunihr = 2 else
 								 num3 when bcdunihr = 3 else
 								 num4 when bcdunihr = 4 else
+								 num5 when bcdunihr = 5 else
+								 num6 when bcdunihr = 6 else
+								 num7 when bcdunihr = 7 else
+								 num8 when bcdunihr = 8 else
+								 num9 when bcdunihr = 9 else
 								 numn;
 		  end block table_unihr;
 		 

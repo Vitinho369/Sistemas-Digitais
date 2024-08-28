@@ -25,4 +25,5 @@ architecture Behavioral of dezena_seg is
 					end if;
 					end process;
 						  bcd_dez_seg <= dez;
+						  clk_out_dez_seg <= clk_out_tmp_seg;
   end Behavioral;

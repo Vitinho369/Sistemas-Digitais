@@ -55,8 +55,51 @@ set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_global_assignment -name VHDL_FILE relogio.vhd
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_N2 -to clk
+set_location_assignment PIN_AF10 -to seg71[0]
+set_location_assignment PIN_AB12 -to seg71[1]
+set_location_assignment PIN_AC12 -to seg71[2]
+set_location_assignment PIN_AD11 -to seg71[3]
+set_location_assignment PIN_AE11 -to seg71[4]
+set_location_assignment PIN_V14 -to seg71[5]
+set_location_assignment PIN_V13 -to seg71[6]
+set_location_assignment PIN_V20 -to seg72[0]
+set_location_assignment PIN_V21 -to seg72[1]
+set_location_assignment PIN_W21 -to seg72[2]
+set_location_assignment PIN_Y22 -to seg72[3]
+set_location_assignment PIN_AA24 -to seg72[4]
+set_location_assignment PIN_AA23 -to seg72[5]
+set_location_assignment PIN_AB24 -to seg72[6]
+set_location_assignment PIN_AB23 -to seg73[0]
+set_location_assignment PIN_V22 -to seg73[1]
+set_location_assignment PIN_AC25 -to seg73[2]
+set_location_assignment PIN_AC26 -to seg73[3]
+set_location_assignment PIN_AB26 -to seg73[4]
+set_location_assignment PIN_AB25 -to seg73[5]
+set_location_assignment PIN_Y24 -to seg73[6]
+set_location_assignment PIN_Y23 -to seg74[0]
+set_location_assignment PIN_AA25 -to seg74[1]
+set_location_assignment PIN_AA26 -to seg74[2]
+set_location_assignment PIN_Y26 -to seg74[3]
+set_location_assignment PIN_Y25 -to seg74[4]
+set_location_assignment PIN_U22 -to seg74[5]
+set_location_assignment PIN_W24 -to seg74[6]
+set_location_assignment PIN_U9 -to seg75[0]
+set_location_assignment PIN_U1 -to seg75[1]
+set_location_assignment PIN_U2 -to seg75[2]
+set_location_assignment PIN_T4 -to seg75[3]
+set_location_assignment PIN_R7 -to seg75[4]
+set_location_assignment PIN_R6 -to seg75[5]
+set_location_assignment PIN_T3 -to seg75[6]
+set_location_assignment PIN_T2 -to seg76[0]
+set_location_assignment PIN_P6 -to seg76[1]
+set_location_assignment PIN_P7 -to seg76[2]
+set_location_assignment PIN_T9 -to seg76[3]
+set_location_assignment PIN_R5 -to seg76[4]
+set_location_assignment PIN_R4 -to seg76[5]
+set_location_assignment PIN_R3 -to seg76[6]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
